@@ -21,6 +21,8 @@ async def PyFly(_, message):
 async def PyFly(_, message):
     try:
         Run_Txt = await message.reply_text("`....`")
+        await asyncio.sleep(2.5) #Server Maintenance
+        await Run_Txt.edit("???")
     except Exception as e:
         await message.reply_text(f"**Error**: {e}")
 
