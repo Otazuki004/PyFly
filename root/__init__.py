@@ -6,4 +6,4 @@ b_tok = "6957348263:AAH7yp5PMl1pIHhtxRuMbOvnK9FwvKshOuk" # Your Bot Token
 
 SUDO = [5965055071]
 
-bot = Client("PyFly", bot_token=b_tok, api_id=a_id, api_hash=a_hash, plugins=dict(root="root/Server"))
+bot = Client("PyFly", bot_token=b_tok, api_id=a_id, api_hash=a_hash, plugins=dict(root="root/Properties"))
