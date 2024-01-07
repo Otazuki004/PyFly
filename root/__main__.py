@@ -18,10 +18,10 @@ async def PyFly(_, message):
     await getting_ready.edit("PyFly Has Stated")
 
 @bot.on_message(filters.command(['run', 'bash', 'sh', 'shell']))
-async def PyFly(_, message):
+async def PyFly_Run(_, message):
     try:
         Run_Txt = await message.reply_text("`....`")
-        await asyncio.sleep(2.5) #Server Maintenance
+        await asyncio.sleep(2.5) #Server Speed
         await Run_Txt.edit("???")
     except Exception as e:
         await message.reply_text(f"**Error**: {e}")
